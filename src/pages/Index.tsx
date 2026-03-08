@@ -72,11 +72,6 @@ const Index = () => {
           <img src={heroBg} alt="Fresh bubble tea drinks" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal/70 via-charcoal/40 to-transparent" />
         </div>
-        <img
-          src={leafDecoration}
-          alt=""
-          className="absolute bottom-10 right-0 w-48 opacity-30 animate-float pointer-events-none"
-        />
         <div className="container mx-auto relative z-10 py-32">
           <motion.div
             initial="hidden"
@@ -112,7 +107,7 @@ const Index = () => {
             </motion.div>
           </motion.div>
         </div>
-        <WaveDivider color="hsl(var(--cream))" />
+        
       </section>
 
       {/* PHILOSOPHY */}
