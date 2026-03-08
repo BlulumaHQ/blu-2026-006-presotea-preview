@@ -107,7 +107,7 @@ const Index = () => {
             </motion.div>
           </motion.div>
         </div>
-        <WaveDivider color="hsl(var(--cream))" />
+        
       </section>
 
       {/* PHILOSOPHY */}
