@@ -91,33 +91,6 @@ const Franchise = () => (
       </div>
     </section>
 
-    {/* Franchise Form */}
-    <section className="bg-cream py-20 md:py-28">
-      <div className="container mx-auto max-w-2xl">
-        <div className="text-center mb-10">
-          <span className="section-label block mb-3">Apply Now</span>
-          <h2 className="section-title">
-            Franchise <span className="section-title-script">Inquiry</span>
-          </h2>
-        </div>
-        <form action="https://formspree.io/f/mbdabbql" method="POST" className="space-y-5">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <input type="text" name="name" placeholder="Full Name" required className="w-full px-5 py-3 rounded-xl border border-border bg-popover text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
-            <input type="email" name="email" placeholder="Email Address" required className="w-full px-5 py-3 rounded-xl border border-border bg-popover text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <input type="tel" name="phone" placeholder="Phone Number" className="w-full px-5 py-3 rounded-xl border border-border bg-popover text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
-            <input type="text" name="city" placeholder="Preferred City" className="w-full px-5 py-3 rounded-xl border border-border bg-popover text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
-          </div>
-          <input type="text" name="budget" placeholder="Estimated Budget" className="w-full px-5 py-3 rounded-xl border border-border bg-popover text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring" />
-          <textarea name="message" placeholder="Tell us about your experience and interest" rows={5} className="w-full px-5 py-3 rounded-xl border border-border bg-popover text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none" />
-          <input type="hidden" name="_subject" value="New Franchise Inquiry - Presotea BC" />
-          <button type="submit" className="btn-primary-custom w-full justify-center">
-            Submit Inquiry <ArrowRight size={16} />
-          </button>
-        </form>
-      </div>
-    </section>
   </main>
 );
 
